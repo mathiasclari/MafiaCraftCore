@@ -1,5 +1,6 @@
 package net.acticraft.actimafiaplugin;
 
+import net.acticraft.actimafiaplugin.MaskCommand.MaskCmd;
 import net.acticraft.actimafiaplugin.PluginCoreListeners.BanOp;
 import net.md_5.bungee.api.ChatColor;
 import org.bukkit.Bukkit;
@@ -73,6 +74,7 @@ public final class ActiMafiaPlugin extends JavaPlugin {
             getServer().getPluginManager().registerEvents(new BanOp(), this);
 
             //CoreCommands
+            getCommand("mask").setExecutor(new MaskCmd());
 
                 /* getCommand("youtube").setExecutor(new YouTubeCommand());
                 getCommand("discord").setExecutor(new DiscordCommand());
