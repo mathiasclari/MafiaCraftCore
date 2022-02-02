@@ -24,14 +24,14 @@ public class MaskCmd implements CommandExecutor {
                     if (null != p.getInventory().getHelmet()) {
                         sender.sendMessage(ChatColor.of(new Color(161, 0, 0)) + "You already have a mask!");
                         // return
-                    }else{
-                        if(p.getInventory().equals(Material.RED_CARPET)){
+                    } else {
                         p.getInventory().setHelmet(new ItemStack(p.getInventory().getItemInMainHand()));
                         p.getInventory().removeItem(new ItemStack(p.getInventory().getItemInMainHand()));
                         p.playEffect(p.getLocation(), Effect.CLICK1, 5);
                         p.playEffect(p.getLocation(), Effect.MOBSPAWNER_FLAMES, 5);
                         sender.sendMessage(ChatColor.of(new Color(61, 146, 255)) + "You equiped a mask!");
-                        return true;}}
+                        return true;
+                    }
                 } else {
                     sender.sendMessage(ChatColor.of(new Color(161, 0, 0)) + "You must be a player to execute this command!");
                     return true;
