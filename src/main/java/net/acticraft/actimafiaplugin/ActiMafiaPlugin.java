@@ -44,7 +44,7 @@ public final class ActiMafiaPlugin extends JavaPlugin {
                 Bukkit.getConsoleSender().sendMessage(ChatColor.GRAY + "|");
                 Bukkit.getConsoleSender().sendMessage(ChatColor.GRAY + "|" + ChatColor.of(new Color(65, 65, 65)) + "       Type:" + ChatColor.of(new Color(100, 100, 100)) + "LICENCED");
                 Bukkit.getConsoleSender().sendMessage(ChatColor.GRAY + "|");
-                Bukkit.getConsoleSender().sendMessage(ChatColor.GRAY + "|" + ChatColor.of(new Color(65, 65, 65)) + "       Licence:" + ChatColor.of(new Color(192, 0, 52)) + " InCorrect");
+                Bukkit.getConsoleSender().sendMessage(ChatColor.GRAY + "|" + ChatColor.of(new Color(65, 65, 65)) + "       Licence:" + ChatColor.of(new Color(192, 0, 52)) + " Valid");
                 Bukkit.getConsoleSender().sendMessage(ChatColor.GRAY + "|");
                 Bukkit.getConsoleSender().sendMessage(ChatColor.GRAY + "|" + ChatColor.of(new Color(65, 65, 65)) + "       Pls re-enter the licence or user again");
                 Bukkit.getConsoleSender().sendMessage(ChatColor.GRAY + "|");
@@ -64,7 +64,7 @@ public final class ActiMafiaPlugin extends JavaPlugin {
                 Bukkit.getConsoleSender().sendMessage(ChatColor.GRAY + "|");
                 Bukkit.getConsoleSender().sendMessage(ChatColor.GRAY + "|" + ChatColor.of(new Color(65, 65, 65)) + "       Type:" + ChatColor.of(new Color(100, 100, 100)) + "LICENCED");
                 Bukkit.getConsoleSender().sendMessage(ChatColor.GRAY + "|");
-                Bukkit.getConsoleSender().sendMessage(ChatColor.GRAY + "|" + ChatColor.of(new Color(65, 65, 65)) + "       Licence:" + ChatColor.of(new Color(61, 168, 255)) + " Correct");
+                Bukkit.getConsoleSender().sendMessage(ChatColor.GRAY + "|" + ChatColor.of(new Color(65, 65, 65)) + "       Licence:" + ChatColor.of(new Color(61, 168, 255)) + " Unvalid");
                 Bukkit.getConsoleSender().sendMessage(ChatColor.GRAY + "|");
                 Bukkit.getConsoleSender().sendMessage(ChatColor.GRAY + "[]===============================================[]");
 
