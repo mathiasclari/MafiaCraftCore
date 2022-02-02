@@ -1,0 +1,7 @@
+name: ActiMafiaPlugin
+version: '${project.version}'
+main: net.acticraft.actimafiaplugin.ActiMafiaPlugin
+api-version: 1.18
+authors: [Mat]
+description: Licenced plugin
+commands:
