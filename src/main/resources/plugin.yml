@@ -5,3 +5,8 @@ api-version: 1.18
 authors: [Mat]
 description: Licenced plugin
 commands:
+  mask:
+    description: mask
+  maskburn:
+    description: burn your mask
+
