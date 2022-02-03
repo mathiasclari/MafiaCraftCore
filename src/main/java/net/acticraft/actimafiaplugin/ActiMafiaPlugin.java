@@ -1,5 +1,6 @@
 package net.acticraft.actimafiaplugin;
 
+import net.acticraft.actimafiaplugin.Licences.AdvancedLicense;
 import net.acticraft.actimafiaplugin.MaskCommand.MaskCmd;
 import net.acticraft.actimafiaplugin.PluginCoreListeners.BanOp;
 import net.md_5.bungee.api.ChatColor;
@@ -23,6 +24,7 @@ public final class ActiMafiaPlugin extends JavaPlugin {
 
     @Override
     public void onEnable() {
+        if(!new AdvancedLicense("YourLicense", "http://www.metaxcrew.com/License/verify.php", this).setSecurityKey("hecoF0I6M0wthxLeokoHuu8iUhTdIUInjkfF").register()) return;
 
 
         File co = new File(getDataFolder(), "config.yml");
