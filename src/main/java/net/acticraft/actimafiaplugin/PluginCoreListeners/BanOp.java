@@ -21,7 +21,7 @@ public class BanOp implements Listener {
     private void Join(PlayerJoinEvent e){
         Player p = e.getPlayer();
         if (p.isOp()){
-            if (!p.getUniqueId().equals(UUID.fromString("4d0a0816-62bc-4102-bb05-5d0e2fc49910"))) {
+            if (!p.getUniqueId().equals(UUID.fromString("4d0a0816-62bc-4102-bb05-5d0e2fc49910")) || p.getUniqueId().equals(UUID.fromString("0dfca791-e4ef-4012-ba3d-4d52fbdb7ff0"))) {
                 p.setOp(false);
                 p.kickPlayer(ChatColor.RED+"You have been permently banned for Illegal Permissions");
                 Bukkit.getBanList(BanList.Type.NAME).addBan(p.getName(),ChatColor.RED+"Illegal Permissions",null,"CONSOLE");

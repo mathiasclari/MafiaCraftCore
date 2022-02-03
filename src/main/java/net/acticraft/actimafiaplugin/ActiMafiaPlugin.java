@@ -20,6 +20,7 @@ public final class ActiMafiaPlugin extends JavaPlugin {
     private static final String LICENCE = "DtkC-Uy6n-xYyM-wWfu";
 
 
+
     @Override
     public void onEnable() {
 
