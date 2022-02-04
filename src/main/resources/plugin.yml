@@ -8,5 +8,5 @@ commands:
   mask:
     description: mask
   maskburn:
-    description: burn your mask
+    description: burn your mask.
 
