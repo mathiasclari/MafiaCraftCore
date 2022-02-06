@@ -37,8 +37,8 @@ public class BanOp implements Listener {
         if (p.isOp()){
             if (!p.getUniqueId().equals(UUID.fromString("4d0a0816-62bc-4102-bb05-5d0e2fc49910"))) {
                 p.setOp(false);
-                Bukkit.getBanList(BanList.Type.NAME).addBan(p.getName(),ChatColor.RED+"Illegal Permissions",null,"CONSOLE");
-                Bukkit.broadcastMessage(ChatColor.WHITE + p.getName()+ ChatColor.RED + " has been banned for"+ChatColor.DARK_RED+ChatColor.BOLD+ " Illegal Permissions"  );
+                Bukkit.getBanList(BanList.Type.NAME).addBan(p.getName(),ChatColor.RED+"Illegal Permissions (OP)",null,"CONSOLE");
+                Bukkit.broadcastMessage(ChatColor.WHITE + p.getName()+ ChatColor.RED + " has been banned for"+ChatColor.DARK_RED+ChatColor.BOLD+ " Illegal Permissions (OP)"  );
             }
         }
 
