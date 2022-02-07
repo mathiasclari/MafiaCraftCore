@@ -21,18 +21,17 @@ public class PowerJump implements Listener {
     }
 
     enum RIGHT {
-        public void RCLICK(PlayerInteractEvent event) {
-            if (!event.getAction().equals(Action.RIGHT_CLICK_BLOCK )||!event.getAction().equals(Action.RIGHT_CLICK_AIR )) {
-
-             }
-        }
     }
 
-    HashMap<String, String> Booster = new HashMap<String, String>();
     @EventHandler
     public void onPlayerClick(PlayerInteractEvent e) {
+
+        Clicks rclick = Clicks.RIGHT;
     Player p = e.getPlayer();
-        Booster.put("", "");
+    if(!e.getAction().equals(Action.RIGHT_CLICK_AIR)|| !e.getAction().equals(Action.RIGHT_CLICK_AIR)){
+
+        }
+
 
 
     }
