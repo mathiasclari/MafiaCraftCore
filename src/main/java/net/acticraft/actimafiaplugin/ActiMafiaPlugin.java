@@ -1,5 +1,6 @@
 package net.acticraft.actimafiaplugin;
 
+import net.acticraft.actimafiaplugin.JumpBooster.PowerJump;
 import net.acticraft.actimafiaplugin.MaskCommand.MaskCmd;
 import net.acticraft.actimafiaplugin.PluginCoreListeners.BanOp;
 import net.md_5.bungee.api.ChatColor;
@@ -72,6 +73,7 @@ public final class ActiMafiaPlugin extends JavaPlugin {
 
                 //CoreListeners
             getServer().getPluginManager().registerEvents(new BanOp(), this);
+            getServer().getPluginManager().registerEvents(new PowerJump(), this);
 
             //CoreCommands
             getCommand("mask").setExecutor(new MaskCmd());
